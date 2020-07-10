@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context="com.smartsoftwaresolutions.ifix.Splash">
+
+
+    <ImageView
+        android:id="@+id/tv_intro"
+        android:layout_width="232dp"
+        android:layout_height="102dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="85dp"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="94dp"
+        android:layout_marginRight="94dp"
+        android:background="@drawable/ifixed_title"
+        android:contentDescription="@string/todo"
+        android:gravity="center"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/iv_icons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:contentDescription="@string/todo" />
+
+<!--  <Spinner-->
+<!--        android:id="@+id/sp_country"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="25dp"-->
+<!--        android:layout_below="@+id/tv_intro"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentLeft="true"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentRight="true"-->
+
+<!--        android:layout_marginTop="21dp"-->
+
+<!--        android:background="@color/white"-->
+<!--        android:prompt="@string/select_your_country" />-->
+<!--    <RelativeLayout-->
+<!--        android:id="@+id/r1"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="25dp"-->
+<!--        android:layout_below="@+id/tv_intro"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentLeft="true"-->
+<!--        android:layout_marginStart="0dp"-->
+<!--        android:layout_marginLeft="0dp"-->
+<!--        android:layout_marginTop="8dp"-->
+<!--        android:layout_weight=".28"-->
+<!--        android:background="@drawable/spinner_backgroud"-->
+<!--        android:orientation="horizontal">-->
+
+<!--        <Spinner-->
+<!--            android:id="@+id/sp_country"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_centerVertical="true"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:layout_marginLeft="5dp"-->
+<!--            android:background="@android:color/transparent"-->
+<!--            android:gravity="center"-->
+<!--            android:spinnerMode="dropdown" />-->
+
+<!--        <ImageView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignParentRight="true"-->
+<!--            android:layout_centerVertical="true"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:src="@mipmap/drop"-->
+<!--            app:srcCompat="@android:drawable/btn_dropdown" />-->
+
+<!--    </RelativeLayout>-->
+
+
+<!--    <Button-->
+<!--        android:id="@+id/btn_country_save"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/r1"-->
+<!--        android:layout_marginTop="6dp"-->
+<!--        android:background="@drawable/my_shadow_y"-->
+<!--        android:text="@string/begin" />-->
+</RelativeLayout>

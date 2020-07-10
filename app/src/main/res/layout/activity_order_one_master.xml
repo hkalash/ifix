@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Order_Service.order_one_master"
+    android:layoutDirection="ltr">
+
+<!--    <ListView-->
+<!--        android:id="@+id/CL"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        tools:ignore="RtlHardcoded" />-->
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/btn_img_left"
+            style="@android:style/Animation.Translucent"
+            android:layout_width="32dp"
+            android:layout_height="100dp"
+            android:background="@color/black"
+            android:src="@drawable/back" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/CL"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:clipToPadding="false">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+        <ImageView
+            android:id="@+id/btn_img_right"
+            android:layout_width="32dp"
+            android:layout_height="100dp"
+            android:background="@color/black"
+            android:rotation="180"
+            android:src="@drawable/back"
+            />
+
+    </LinearLayout>
+
+    <!--        <GridView-->
+<!--            android:id="@+id/gridview"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="0dp"-->
+
+<!--            android:background="@color/white"-->
+<!--            android:horizontalSpacing="5dp"-->
+<!--            android:numColumns="2"-->
+<!--            android:verticalSpacing="5dp"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintHorizontal_bias="0.0"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/CL"></GridView>-->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/SCL_Grid"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_marginTop="4dp"
+
+
+        android:background="@color/white"
+        android:clipToPadding="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout5">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/vp_ad6"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SCL_Grid" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <layer-list>
+            <item android:right="5dp" android:top="5dp">
+                <shape>
+                    <corners android:radius="15dp" />
+<!--                    <solid android:color="#A3A1A1" />-->
+                </shape>
+            </item>
+            <item android:bottom="2dp" android:left="2dp">
+                <shape>
+<!--                    <solid android:color="@color/yellow"/>-->
+                                        <stroke android:color="@color/yellow" android:width="2dp" />
+                    <!--corners allow us to make the rounded corners button-->
+                    <corners android:radius="15dp" />
+
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

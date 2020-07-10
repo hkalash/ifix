@@ -1,0 +1,146 @@
+<resources>
+    <string name="app_name">EB<p><font color="red">H</font>ASS</p></string>
+    <string name="ifiixed" translatable="false">EB<p><font color="red">H</font>ASS</p></string>
+    <string name="title_activity_main" translatable="false">MainActivity</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="nav_header_title">You asked we fix</string>
+    <string name="nav_header_subtitle" translatable="false">www.EBHASS.com</string>
+    <string name="nav_header_desc" translatable="false">Navigation header</string>
+    <string name="action_back">Settings</string>
+
+    <string name="menu_about_us">Home</string>
+    <string name="menu_help">Gallery</string>
+    <string name="menu_slideshow">Setting</string>
+    <string name="menu_setting">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="order_a_service">Search</string>
+    <string name="offer_a_service">Offer A Service</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="advertise_with_us">Advertise with US</string>
+    <string name="arabic">Arabic</string>
+    <string name="english">English</string>
+    <string name="show_all">show all</string>
+    <string name="show_near_by">show nearby me</string>
+    <string name="playlist" translatable="false">PlayList</string>
+    <string name="songlist" translatable="false">songlist</string>
+
+
+    <string name="username">Username<p><font color="red">*</font></p></string>
+    <string name="password">Password<p><font color="red">*</font></p></string>
+    <string name="login">Login</string>
+    <string name="enter_mobile_phone">Mobile/Phone with country code without + <p><font color="red">*</font></p></string>
+    <string name="enter_phone">Enter Phone with country code<p><font color="red">*</font></p></string>
+    <string name="enter_full_name">Enter Full Name<p><font color="red">*</font></p></string>
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_adress">Enter Address District/Street<p><font color="red">*</font></p></string>
+    <string name="add_me_to_map">add me to map<p><font color="red">*</font></p></string>
+    <string name="add_a_service">Add a Service<p><font color="red">*</font></p></string>
+    <string name="submit">Submit</string>
+    <string name="todo" translatable="false">TODO</string>
+    <string name="apple" translatable="false">Apple</string>
+    <string name="CompleteRegister">Complete Registration</string>
+    <string name="create_an_account_to_get_started">Create an account.</string>
+    <string name="set_username">Set Username<p><font color="red">*</font></p></string>
+    <string name="set_password">Set Password<p><font color="red">*</font></p></string>
+    <string name="company_one"> company one</string>
+    <string name="paint">Paint</string>
+    <string name="house_fix">House Fixe</string>
+    <string name="homeappliance">Home appliance</string>
+    <string name="plumber">Plumber</string>
+    <string name="kitchen">kitchen</string>
+    <string name="electricity">electricity</string>
+    <string name="air_condition">air condition</string>
+    <string name="battary">Battery</string>
+    <string name="engin">engine</string>
+    <string name="electrician">electrician</string>
+    <string name="car_body_fix">car body fix</string>
+    <string name="tire">tires</string>
+    <string name="general">General</string>
+    <string name="keys">keys</string>
+    <string name="already_registered_login_here">Already registered ? login here</string>
+    <string name="already_registered_nlogin_here">already</string>
+    <string name="communicate">Communicate</string>
+    <string name="work">Work</string>
+    <string name="already_registered_nlogin_here1">Already Registered</string>
+    <string name="favorite">My Favorite</string>
+    <string name="about_us">about us</string>
+    <string name="help">Help</string>
+    <string name="done">Done</string>
+    <string name="vip">VIP    : This one is closed call us </string>
+    <string name="free">FREE : This allow you to add one Photo</string>
+    <string name="gold">GOLD : This will allow you to add up to three photo</string>
+    <string name="company_name">Enter Company name :<p><font color="red">*</font></p></string>
+    <string name="mobile_number">Mobile/Number :</string>
+    <!--    <string name="todo">TODO</string>-->
+    <string name="address">area / street</string>
+    <string name="begin">Begin</string>
+    <string name="select_your_country">Select Your Country</string>
+    <string name="name1">Mandatory field 1<font color='#FF0000'>*</font></string>
+    <string name="name2">Mandatory field 2<font color='#FF0000'>*</font></string>
+    <string name="company_name1">Company Name</string>
+    <string name="answer_the_question">Answer the question<p><font color="red">*</font></p></string>
+    <string name="edit_profil">Edit Profil</string>
+    <string name="forget_my_password">Forget My Password/Send us an email.</string>
+    <string name="company_email_address">this is our company email to be added</string>
+    <string name="subject1">Please send me the username and password</string>
+    <string name="message1">My secret answer is :</string>
+    <string name="remember_my_password">Remember my password</string>
+    <string name="add_photo">Add Photo<p><font color="red">*</font></p></string>
+    <string name="save_photo">Save Photo</string>
+    <string name="company_name_name">Company Name / Name<p><font color="red">*</font></p></string>
+    <string name="continue1">Continue</string>
+    <string name="company_name_required">Name is required</string>
+    <string name="mobile_name_required">Mobile is required</string>
+    <string name="address_required">address is required</string>
+    <string name="longitude_required">Please add coordinate</string>
+    <string name="add_a_description">Add a description</string>
+    <string name="edit_map">Edit map</string>
+    <string name="description">Description</string>
+    <string name="mobile">Mobile:</string>
+    <string name="clear_filter">Clear Filter</string>
+    <string name="f">What is your favorite Movie ?</string>
+    <string name="c">What is your favorite Car ?</string>
+    <string name="ff">What is your favorite Food ?</string>
+    <string name="choose_member_type">Choose an advertising type</string>
+    <string name="enter_web_address">Enter full web Address </string>
+    <string name="upload_s">File Uploaded Successfully...</string>
+    <string name="upload_f">Some error occurred...</string>
+    <string name="nr">Name is required</string>
+    <string name="pr">Phone is required</string>
+    <string name="ar">address is required</string>
+    <string name="lr">Please add the longitude</string>
+    <string name="lonr">Please add the longitude</string>
+    <string name="er">Please add an email</string>
+    <string name="email">email :</string>
+    <string name="add_edite_selected_service">Add/Edite Selected Service</string>
+    <string name="save_profile">Save Profile</string>
+    <string name="search_by_name">Search By Name</string>
+    <string name="search">search</string>
+    <string name="connectoin_f">Connection Failure</string>
+    <string name="pleaseconect_to">Please Connect to the Internet</string>
+    <string name="upload_edited">Save</string>
+    <string name="please_select_pic">Please select a picture</string>
+    <string name="advertisement_gallery">Advertisement Gallery</string>
+    <string name="search_by_category">Search By Category</string>
+    <string name="gallery">GALLERY</string>
+    <string name="select_a_picture">Select A Picture</string>
+    <string name="cancel">Cancel</string>
+    <string name="sorry_no_match_please_try_again">Sorry, no match… Please try again</string>
+    <string name="i_am" translatable="false">i am in the filler of selected id </string>
+    <string name="company_n">Company Name</string>
+    <string name="http">The web address </string>
+    <string name="no_we_address">There is no web address</string>
+    <string name="edit_adv">Edit Advertisement</string>
+    <string name="select_language">Select Language</string>
+    <string name="apply_search">Apply search</string>
+    <string name="search_by_country">search by country</string>
+    <string name="service_category">Please Select your Service Category</string>
+    <string name="contruanddistrict">Please Select your country and District</string>
+    <string name="add_a_free_gallery_image">Add a free Gallery Image</string>
+    <string name="if_you_want_to_add_a_gallery_image">If You want to add a gallery image</string>
+    <string name="contact_us">Contact Us</string>
+
+
+</resources>

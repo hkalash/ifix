@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:bwq="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/action_back"
+        android:icon="@drawable/back"
+        android:menuCategory="container"
+        android:orderInCategory="3"
+        android:title="@string/todo"
+        app:showAsAction="always"
+         />
+
+    <item
+        android:menuCategory="container"
+
+        android:id="@+id/action_language"
+        android:icon="@drawable/language"
+        android:orderInCategory="2"
+
+        app:showAsAction="always"
+        android:title="">
+
+        <menu>
+
+                <item
+                    android:id="@+id/action_Arabic"
+                    android:title="@string/arabic"
+                    android:left="-20dp"
+                    android:icon="@drawable/uar"
+                    android:gravity="left" >
+
+                </item>
+
+
+            <item
+                android:id="@+id/action_English"
+                android:icon="@drawable/uk"
+                android:title="@string/english"
+               />
+
+
+        </menu>
+
+    </item>
+
+
+
+
+    <item
+        android:menuCategory="container"
+
+        android:id="@+id/action_favorite"
+        android:icon="@drawable/favorite_yellow"
+
+        android:title="@string/english"
+        app:showAsAction="always">
+
+    </item>
+
+</menu>

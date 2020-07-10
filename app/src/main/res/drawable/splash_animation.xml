@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/animation_list_splash"
+    android:oneshot="false">
+    <item
+        android:drawable="@drawable/house"
+        android:duration="250" />
+    <item
+        android:drawable="@drawable/car"
+        android:duration="250" />
+    <item
+        android:drawable="@drawable/battery"
+        android:duration="250" />
+    <item
+        android:drawable="@drawable/plugging"
+        android:duration="250" />
+    <item
+        android:drawable="@drawable/paint"
+        android:duration="250" />
+    <item
+        android:drawable="@drawable/maintenance"
+        android:duration="250" />
+    <item
+        android:drawable="@drawable/ifxedlogo_ok"
+        android:duration="750" />
+</animation-list>

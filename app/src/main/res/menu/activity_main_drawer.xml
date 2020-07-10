@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/favoret"
+            android:icon="@drawable/btn_selector_favorite"
+            android:title="@string/favorite" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/search"
+            android:title="@string/search_by_country" />
+        <item
+            android:id="@+id/nav_edit"
+            android:icon="@drawable/edit_profile"
+            android:title="@string/edit_profil" />
+
+        <item
+            android:id="@+id/Gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/advertisement_gallery" />
+<!--        <item-->
+<!--            android:id="@+id/nav_home"-->
+<!--            android:icon="@drawable/ic_menu_camera"-->
+<!--            android:title="@string/menu_about_us" />-->
+        <item
+            android:id="@+id/register"
+            android:icon="@drawable/setting"
+            android:title="@string/menu_slideshow" />
+<!--        <item-->
+<!--            android:id="@+id/search"-->
+<!--            android:icon="@drawable/ic_menu_gallery"-->
+<!--            android:title="@string/search_by_category" />-->
+    </group>
+
+    <item android:title="@string/communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/menu_share" />
+            <item
+                android:id="@+id/about_us"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/about_us" />
+            <item
+                android:id="@+id/contact_us"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/contact_us" />
+            <item
+                android:id="@+id/help"
+                android:icon="@android:drawable/ic_menu_help"
+                android:title="@string/help" />
+        </menu>
+    </item>
+
+</menu>

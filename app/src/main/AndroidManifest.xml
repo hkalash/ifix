@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.smartsoftwaresolutions.ifix">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- the internet permission -->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Contact_Us"></activity>
+        <activity android:name=".Advertisement_Gallery.SecoundActivity" />
+        <activity android:name=".Advertisement_Gallery.Advertisement" />
+        <activity android:name=".My_Profile" />
+        <activity android:name=".Images.Images_Profile" />
+        <activity android:name=".country_spinner.Country" />
+        <activity android:name=".My_Favorite_list" />
+        <activity android:name=".Member_Type" />
+        <activity android:name=".About_Us" />
+        <activity android:name=".Help" />
+        <activity android:name=".Gallery.Gallery" />
+        <activity android:name=".Worker_Profile" />
+        <activity android:name=".Order_Service.order_one_master" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".map.MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity android:name=".Order_list_chiled.Order_list_chiled" /> <!-- <activity android:name=".Order_list_master_not_Used.Order_list_master" /> -->
+        <activity android:name=".Select_Sub_Category_Service_Menu.Select_Sub_Menu" />
+        <activity android:name=".Select_Main_category_Service_Menu.Select_Main_Menu" />
+        <activity android:name=".Login" />
+        <activity android:name=".Registration_form_one" /> <!-- <activity android:name=".Worker_Select_A_Service.Select_Main_Menu" /> -->
+        <activity android:name=".Register_a_service_form_two" />
+        <activity
+            android:name=".Main_Activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+    </application>
+
+</manifest>

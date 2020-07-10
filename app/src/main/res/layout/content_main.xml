@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Main_Activity"
+    tools:showIn="@layout/app_bar_main">
+
+    <Button
+        android:id="@+id/btn_offer1"
+        android:layout_width="0dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+
+        android:layout_marginRight="8dp"
+        android:background="@drawable/my_shadow"
+        android:elevation="10dp"
+        android:text="@string/advertise_with_us"
+
+        android:textColor="@color/yellow"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintRight_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_gal" />
+
+    <Button
+        android:id="@+id/btn_order1"
+        android:layout_width="0dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/my_shadow"
+        android:drawableTint="@color/red"
+        android:elevation="5dp"
+        android:paddingLeft="16dp"
+        android:paddingTop="8dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="5dp"
+        android:text="@string/order_a_service"
+        android:textColor="@color/yellow"
+        android:textSize="28sp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_gal"
+        android:layout_width="0dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/my_shadow"
+        android:text="@string/gallery"
+        android:textColor="@color/yellow"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.695"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_order1" />
+
+    <Button
+        android:id="@+id/btn_ar1"
+        android:layout_width="2dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="148dp"
+        android:text="@string/arabic"
+        android:visibility="gone"
+        app:layout_constraintEnd_toStartOf="@+id/btn_gal"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_order1" />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/vp_ad"
+        android:layout_width="0dp"
+        android:layout_height="455dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+
+        android:layout_margin="4dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_offer1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

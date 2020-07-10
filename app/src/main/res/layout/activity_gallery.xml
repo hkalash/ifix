@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Gallery.Gallery">
+
+    <LinearLayout
+        android:id="@+id/linearLayout202"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.80">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical|start"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp">
+
+                <Spinner
+                    android:id="@+id/sp_country_g"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/spinner_backgroud"
+                    android:gravity="center"
+                    android:spinnerMode="dropdown"
+                    android:visibility="visible" />
+
+                <ImageView
+                    android:layout_width="49dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical|end"
+                    app:srcCompat="@drawable/dropdown_yellow" />
+
+            </FrameLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.80">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical|start"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp">
+
+                <Spinner
+                    android:id="@+id/sp_sub_country_g"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/spinner_backgroud"
+                    android:gravity="center"
+                    android:spinnerMode="dropdown"
+                    android:visibility="visible"
+                    />
+
+                <ImageView
+                    android:layout_width="49dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical|end"
+                    app:srcCompat="@drawable/dropdown_yellow" />
+            </FrameLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout201"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout202">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.80">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical|start"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp">
+
+                <Spinner
+                    android:id="@+id/sp_categoryg"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/spinner_backgroud"
+                    android:gravity="center"
+                    android:spinnerMode="dropdown"
+                    android:visibility="visible" />
+
+                <ImageView
+                    android:layout_width="49dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical|end"
+                    app:srcCompat="@drawable/dropdown_yellow" />
+
+            </FrameLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.80">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical|start"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp">
+
+                <Spinner
+                    android:id="@+id/sp_sub_category"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/spinner_backgroud"
+                    android:gravity="center"
+                    android:spinnerMode="dropdown"
+                    android:visibility="visible"
+
+                   />
+
+                <ImageView
+                    android:layout_width="49dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical|end"
+                    app:srcCompat="@drawable/dropdown_yellow" />
+            </FrameLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/seartch"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:focusable="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_clear">
+
+        <Button
+            android:id="@+id/btn_s1"
+            android:layout_width="117dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:background="@drawable/my_shadow_r"
+            android:text="@string/search" />
+
+        <EditText
+            android:id="@+id/et_seartch"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.7"
+            android:background="@drawable/spinner_backgroud"
+
+            android:gravity="center"
+            android:hint="@string/search_by_name"
+            android:spinnerMode="dropdown"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/image_search"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical|end"
+            android:layout_weight="0"
+            android:background="@drawable/search"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_Appsearch"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/my_shadow_r"
+        android:text="@string/apply_search"
+        app:layout_constraintEnd_toEndOf="@+id/btn_clear"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout201"></Button>
+
+    <Button
+        android:id="@+id/btn_clear"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/my_shadow_y"
+        android:text="@string/clear_filter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_Appsearch"></Button>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/my_recycler_view5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentBottom="true"
+        android:scrollbars="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/seartch" />
+</androidx.constraintlayout.widget.ConstraintLayout>
